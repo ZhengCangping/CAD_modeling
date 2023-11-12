@@ -25,7 +25,7 @@ int main()
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	//创建一个窗口对象
-	GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "三维CAD建模", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "CAD_Modeling", NULL, NULL);
 	if (window == NULL) {	//判断窗口是否创建成功
 		std::cout << "Failed to create GLFW window" << std::endl;
 		glfwTerminate();
@@ -182,6 +182,8 @@ void processInput(GLFWwindow* window)
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
 	//检查是否按下了空格键
-	if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS)
-		item = 1 - item;
+	if (glfwGetKey(window, GLFW_KEY_0) == GLFW_PRESS)
+		item = 0;
+	if (glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS)
+		item = 1;
 }

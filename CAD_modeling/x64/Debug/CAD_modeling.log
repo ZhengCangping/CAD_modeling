@@ -1,12 +1,5 @@
-﻿  Euler.cpp
-  Renderer.cpp
-E:\CAD_modeling\mine\third_libraries\Include\poly2tri\sweep\sweep_context.h(161,24): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-  Shader.cpp
-  SolidProcess.cpp
-  main.cpp
+﻿  main.cpp
 E:\CAD_modeling\mine\third_libraries\Include\poly2tri\sweep\sweep_context.h(161,24): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
 E:\CAD_modeling\mine\CAD_modeling\main.cpp(28,51): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
 E:\CAD_modeling\mine\CAD_modeling\main.cpp(28,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-  正在生成代码...
-  glad.c
   CAD_modeling.vcxproj -> E:\CAD_modeling\mine\CAD_modeling\x64\Debug\CAD_modeling.exe
